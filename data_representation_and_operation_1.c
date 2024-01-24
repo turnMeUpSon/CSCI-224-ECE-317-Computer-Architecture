@@ -35,7 +35,7 @@ int main()
     strcpy(task_1_a.hex_mumber, "0x9EB36A");
     hex_to_binary(task_1_a.hex_mumber, task_1_a.binary_number);
     printf("\nConversion between Binary and Hexadecimal:\n");
-    printf("\nConvert the hexadecimal number 0x9EB36A into binary.\n");
+    printf("\n1.a - Convert the hexadecimal number 0x9EB36A into binary.\n");
     printf("Hexadecimal number: %s\n", task_1_a.hex_mumber);
     printf("Binary number: %s\n", task_1_a.binary_number);
 
@@ -44,7 +44,7 @@ int main()
     ConversionBetweenHexAndBinary task_1_b;
     strcpy(task_1_b.binary_number, "111010110001011001");
     binary_to_hex(task_1_b.binary_number, task_1_b.hex_mumber);
-    printf("\nConvert the binary number 111010110001011001 into hexadecimal.\n");
+    printf("\n1.b - Convert the binary number 111010110001011001 into hexadecimal.\n");
     printf("Binary number: %s\n", task_1_b.binary_number);
     printf("Hexadecimal number: %s\n", task_1_b.hex_mumber);
 
