@@ -1,3 +1,4 @@
 data_representation_and_operation_1
 data_representation_and_operation_2
-.vscode
+.vscode/*
+!.vscode/settings.json
