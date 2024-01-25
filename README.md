@@ -12,93 +12,45 @@
   </a>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
-<details>
-
-<summary>Table of Contents</summary>
-
-<ol>
-
-<li>
-
-<a  href="#about-the-project">About The Project</a>
-
-<ul>
-
-<li><a  href="#built-with">Built With</a></li>
-
-</ul>
-
-</li>
-
-<li>
-
-<a  href="#getting-started">Getting Started</a>
-
-<ul>
-
-<li><a  href="#prerequisites">Prerequisites</a></li>
-
-<li><a  href="#installation">Installation</a></li>
-
-</ul>
-
-</li>
-
-<li><a  href="#usage">Usage</a></li>
-
-<li><a  href="#roadmap">Roadmap</a></li>
-
-<li><a  href="#contributing">Contributing</a></li>
-
-<li><a  href="#license">License</a></li>
-
-<li><a  href="#contact">Contact</a></li>
-
-<li><a  href="#acknowledgments">Acknowledgments</a></li>
-
-</ol>
-
-</details>
-
-  
-  
-  
 
 <!-- Task 1 -->
 
-## Task 1
+## Task 1 - Conversion between Binary and Hexadecimal ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_1.c)):
+### a. Convert the hexadecimal number 0x9EB36A into binary. 
+### b. Convert the binary number 1110101100010110012 into hexadecimal.
 
-  
+## Task 2 - **Radix-_r_  to Decimal Conversion** ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_1.c)):
+### a.  Convert the binary number 10100101110012  into decimal.
+### b. Convert the hexadecimal number 0x6FB5 into decimal.
+### c. Convert the base-_7_  number 315627  into decimal.
 
-Conversion between Binary and Hexadecimal:
-   Convert the following numbers directly between hexadecimal and binary without first converting to decimal.
-Convert the hexadecimal number 0x9EB36A into binary.
-Convert the binary number 1110101100010110012 into hexadecimal.
+## Task 3 - **Decimal to Radix-_r_  Conversion** ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_1.c)):
+### a.  Convert the decimal number 215 into binary.
+### b.  Convert the decimal number 3576 into hexadecimal.
+### c.  Convert the decimal number 171 into base-_5_.
 
-  
+## Task 4 - **Converting Decimal to Signed Representation** ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_1.c)):
+### a.  Convert the decimal number -89 into 8-bit signed (two's-complement) representation.
+### b.  Convert the decimal number 274 into 16-bit signed (two's-complement) representation.
+### c.  Convert the decimal number -195 into 16-bit signed (two's-complement) representation.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+## Task 5 - **Interpreting as Signed vs. Unsigned** ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_1.c)):
+### a.  If 110100102  is interpreted as an 8-bit signed (two's-complement) number, what is its decimal value?
+### b.  If 110100102  is interpreted as an 8-bit unsigned number, what is its decimal value?
+### c.  If 110100102  is interpreted as a 16-bit signed (two's-complement) number, what is its decimal value?
 
-  
-
-Here's why:
-
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-
-* You should implement DRY principles to the rest of your life :smile:
-
-  
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-  
-
-Use the `BLANK_README.md` to get started.
-
+## Task 6 - **Characters & Strings** ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_1.c)):
+### a. What is the string corresponding to the following series of ASCII values:  
+        0x54 0x68 0x69 0x73 0x20 0x69 0x73 0x20 0x41 0x53 0x43 0x49 0x49 0x21 0x00  
+        
+### b. Convert the string "Billikens rule!" into ASCII.
+## Task 7 - **Operations on Data** ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_1.c)):
+### Show the results for the following data operations:
+    a.  11010111101101102  + 00010111000010112
+    b.  0x8F3C5 - 0x3AB2
+    c.  0000000101002  | 0001000100102
+    d.  0000000101002  & 0001000100102
   
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
@@ -108,192 +60,15 @@ Use the `BLANK_README.md` to get started.
   
 
 ### Built With
+All code is written on C and Assembly
 
-  
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-  
-
-*  [![Next][Next.js]][Next-url]
-
-*  [![React][React.js]][React-url]
-
-*  [![Vue][Vue.js]][Vue-url]
-
-*  [![Angular][Angular.io]][Angular-url]
-
-*  [![Svelte][Svelte.dev]][Svelte-url]
-
-*  [![Laravel][Laravel.com]][Laravel-url]
-
-*  [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-
-*  [![JQuery][JQuery.com]][JQuery-url]
-
-  
-
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
-
-  
-  
-  
-
-<!-- GETTING STARTED -->
 
 ## Getting Started
 
   
 
-This is an example of how you may give instructions on setting up your project locally.
+Make sure you have successfully installed [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake), [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) and [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
-To get a local copy up and running follow these simple example steps.
-
-  
-
-### Prerequisites
-
-  
-
-This is an example of how to list things you need to use the software and how to install them.
-
-* npm
-
-```sh
-
-npm install npm@latest -g
-
-```
-
-  
-
-### Installation
-
-  
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-  
-
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Clone the repo
-
-```sh
-
-git clone https://github.com/your_username_/Project-Name.git
-
-```
-
-3. Install NPM packages
-
-```sh
-
-npm install
-
-```
-
-4. Enter your API in `config.js`
-
-```js
-
-const  API_KEY  =  'ENTER YOUR API';
-
-```
-
-  
-
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
-
-  
-  
-  
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-  
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-  
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-  
-
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
-
-  
-  
-  
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-  
-
--  [x] Add Changelog
-
--  [x] Add back to top links
-
-- [ ] Add Additional Templates w/ Examples
-
-- [ ] Add "components" document to easily copy & paste sections of the readme
-
-- [ ] Multi-language Support
-
-- [ ] Chinese
-
-- [ ] Spanish
-
-  
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-  
-
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
-
-  
-  
-  
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-  
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-  
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-
-Don't forget to give the project a star! Thanks again!
-
-  
-
-1. Fork the Project
-
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-
-5. Open a Pull Request
-
-  
-
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
-
-  
-  
-  
 
 <!-- LICENSE -->
 
