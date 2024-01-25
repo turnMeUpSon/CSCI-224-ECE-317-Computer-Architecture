@@ -66,13 +66,16 @@
   
   
 
-<!-- ABOUT THE PROJECT -->
+<!-- Task 1 -->
 
-## About The Project
+## Task 1
 
   
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Conversion between Binary and Hexadecimal:
+   Convert the following numbers directly between hexadecimal and binary without first converting to decimal.
+Convert the hexadecimal number 0x9EB36A into binary.
+Convert the binary number 1110101100010110012 into hexadecimal.
 
   
 
