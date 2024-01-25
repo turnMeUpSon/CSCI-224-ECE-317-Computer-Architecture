@@ -1,0 +1,1 @@
+char base7_number[BASE_7_NUMBER_SIZE];
