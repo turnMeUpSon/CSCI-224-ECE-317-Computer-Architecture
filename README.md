@@ -16,7 +16,7 @@
 
 <!-- Task 1 -->
 
-## Task 1 - Match the following assembly code sections with their equivalent C expressions ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_1.c)):
+## Task 1 - Match the following assembly code sections with their equivalent C expressions ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/C-And-Intel-x86-Assembly/C_and_Intel_x86_Assembly_1.c)):
 ```
 (1)
 movl x, %eax
@@ -26,7 +26,7 @@ movl x, %eax
  movl %eax, y
 ```
 
-## Task 2
+## Task 2 - ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/C-And-Intel-x86-Assembly/C_and_Intel_x86_Assembly_2.c)):
 ```
 (2)
  movl $25, %eax
@@ -35,7 +35,7 @@ movl x, %eax
  movl %eax, y
 ```
 
-## Task 3
+## Task 3 - ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/C-And-Intel-x86-Assembly/C_and_Intel_x86_Assembly_3.c)):
 ```
 (3)
  movl x, %eax
@@ -43,7 +43,7 @@ movl x, %eax
  movl %eax, y
 ```
 
-## Task 4
+## Task 4 - ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/C-And-Intel-x86-Assembly/C_and_Intel_x86_Assembly_4.c)):
 ```
 (4)
  movl x, %eax
@@ -54,7 +54,7 @@ movl x, %eax
  movl %ebx, y
 ```
 
-## Task 5
+## Task 5 - ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/C-And-Intel-x86-Assembly/C_and_Intel_x86_Assembly_5.c)):
 ```
 (5)
  movl x, %eax
@@ -64,7 +64,7 @@ movl x, %eax
  movl %eax, y
 ```
 
-## Task 6
+## Task 6 - ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/C-And-Intel-x86-Assembly/C_and_Intel_x86_Assembly_6.c)):
 ```
 (6)
  movl x, %eax
@@ -76,27 +76,27 @@ movl x, %eax
  movl %eax, y
 ```
 
-## Task 7 (https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_2.c):
+## Task 7 - ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/C-And-Intel-x86-Assembly/C_and_Intel_x86_Assembly_7.c)):
 ```
 addl $5, %eax
 ```
 
-## Task 8 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_3.c)):
+## Task 8 - ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/C-And-Intel-x86-Assembly/C_and_Intel_x86_Assembly_8.c)):
 ```
 subw var, %cx
 ```
 
-## Task 9 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_4.c)):
+## Task 9 - ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/C-And-Intel-x86-Assembly/C_and_Intel_x86_Assembly_9.c)):
 ```
 movl $ptr, %edx
 ```
 
-## Task 10 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_5.c)):
+## Task 10 - ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/C-And-Intel-x86-Assembly/C_and_Intel_x86_Assembly_10.c)):
 ```
 movb %cl, 8(%esp)
 ```
 
-## Task 11 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_6.c)):
+## Task 11 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/C-And-Intel-x86-Assembly/C_and_Intel_x86_Assembly_11.c)):
 ```
 addw 6(%ebx, %eax, 4), %si
 ```
