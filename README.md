@@ -1,6 +1,6 @@
 # CSCI-224-ECE-317-Computer-Architecture
 
-## Assignment #1: Data Representation and Operations
+## Assignment #4: Intel x86 Assembly, Conditionals, and Loops
  
 <a  name="readme-top"></a>
    
@@ -16,11 +16,21 @@
 
 <!-- Task 1 -->
 
-## Task 1 - Conversion between Binary and Hexadecimal ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_1.c)):
-### a. Convert the hexadecimal number 0x9EB36A into binary. 
-### b. Convert the binary number 1110101100010110012 into hexadecimal.
+## Task 1 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_1.c)):
+```
+Given the following C code:
 
-## Task 2 - **Radix-_r_  to Decimal Conversion** ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_2.c):
+    if (a - 3 > b)
+	      c = a + 7;
+	 else if (b > (c & 7))
+        c = b >> 3;
+	 else
+	      c = -1;
+Given the equivalent Intel x86 assembly code.
+Assume that: variables a, b, and c are in registers %eax, %ebx, and %ecx, respectively.
+```
+
+## Task 2 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Data-Representation-and-Operations/data_representation_and_operation_2.c):
 ### a.  Convert the binary number 10100101110012  into decimal.
 ### b. Convert the hexadecimal number 0x6FB5 into decimal.
 ### c. Convert the base-_7_  number 315627  into decimal.

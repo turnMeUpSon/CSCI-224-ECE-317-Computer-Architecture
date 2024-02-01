@@ -1,0 +1,85 @@
+To sum the sequence 1 4 7 10 13 16 19 22 25 28 ..., we need to adjust the increment value for i. We can achieve this by changing the addl instruction for i from addl $1, %ecx to addl $3, %ecx to make it increment by 3 instead of 1.
+
+assembly
+Copy code
+      movl  $0, %eax         # %eax:  sum = 0
+      movl  $1, %ecx         # %ecx:  i = 1
+
+      LOOP:
+         addl  %ecx, %eax
+         addl  $3, %ecx      # Change increment to 3
+
+         cmpl  %edi, %ecx
+         jle   LOOP
+
+      LOOP_EXIT:
+         ...
+
+
+To compute the factorial of N, we need to multiply each iteration by the current value of i. We also need to update the conditional jump to check if the value of i is less than or equal to N.
+
+assembly
+Copy code
+      movl  $0, %eax         # %eax:  sum = 0
+      movl  $1, %ecx         # %ecx:  i = 1
+
+      LOOP:
+         imull %ecx, %eax    # Multiply sum by i
+         addl  $1, %ecx
+
+         cmpl  %edi, %ecx
+         jle   LOOP
+
+      LOOP_EXIT:
+         ...
+
+
+To compute the sum of squares from 1 to N, we need to square each iteration and add it to the sum.
+
+assembly
+Copy code
+      movl  $0, %eax         # %eax:  sum = 0
+      movl  $1, %ecx         # %ecx:  i = 1
+
+      LOOP:
+         movl  %ecx, %edx    # Copy i to %edx
+         imull %edx, %edx    # Square i
+         addl  %edx, %eax    # Add square to sum
+         addl  $1, %ecx
+
+         cmpl  %edi, %ecx
+         jle   LOOP
+
+      LOOP_EXIT:
+         ...
+
+
+To generate the sum -1 + 2 - 3 + 4 - 5 + 6 - 7 + 8 - 9 + ..., we can toggle the sign of each number based on whether it's even or odd. We can achieve this by performing a bitwise AND operation with the number 1 (00000001 in binary) and checking if it's zero or not. If it's zero, the number is even, if it's not zero, the number is odd.
+
+assembly
+Copy code
+      movl  $0, %eax         # %eax:  sum = 0
+      movl  $1, %ecx         # %ecx:  i = 1
+
+      LOOP:
+         movl  %ecx, %edx    # Copy i to %edx
+         andl  $1, %edx       # Check if i is odd
+
+         testl %edx, %edx    # Test if i is odd
+         jz    ADD           # If i is even, jump to ADD
+
+         negl  %ecx           # Negate i if odd
+         jmp   ADD_EXIT      # Jump to ADD_EXIT
+
+      ADD:
+         addl  %ecx, %eax    # Add i to sum
+
+      ADD_EXIT:
+         addl  $1, %ecx
+
+         cmpl  %edi, %ecx
+         jle   LOOP
+
+      LOOP_EXIT:
+         ...
+These changes will modify the behavior of the loop as described.
