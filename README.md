@@ -16,7 +16,7 @@
 
 <!-- Task 1 -->
 
-## Task 1 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Intel-x86-Assembly-Conditionals-and-Loops/intel_x86_assembly_conditionals_loops_1.asm)):
+## Task 1 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Intel-x86-Assembly-Procedures-and-the-Stack-Frame/intel_x86_assembly_procedures_and_the_stack_frame_1.c)):
 ```
 What operation is performed by the following sequence of instructions?
 
@@ -26,7 +26,7 @@ What operation is performed by the following sequence of instructions?
     popw   %dx 
 ```
 
-## Task 2 - Create an assembly program that computes the volume of a trapezoidal prism, given the integer sizes for A, B, H, and L. ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Intel-x86-Assembly-Conditionals-and-Loops/intel_x86_assembly_conditionals_loops_2.c)):
+## Task 2 - Create an assembly program that computes the volume of a trapezoidal prism, given the integer sizes for A, B, H, and L. ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Intel-x86-Assembly-Procedures-and-the-Stack-Frame/intel_x86_assembly_procedures_and_the_stack_frame_2.c)):
 ```
 Use a procedure to compute the volume, and have that procedure take four input arguments: length of the prism (L), the height of the trapezoidal cross-section (H), the base width of the trapezoid (B), and the top width of the trapezoid (A). The corresponding procedure declaration in C would look lie:
 
@@ -43,7 +43,7 @@ You're welcome to use a similar program, like abs_asm.s, as a starting point for
 
 ```
 
-## Task 3 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Intel-x86-Assembly-Conditionals-and-Loops/intel_x86_assembly_conditionals_loops_3.c)):
+## Task 3 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Intel-x86-Assembly-Procedures-and-the-Stack-Frame/intel_x86_assembly_procedures_and_the_stack_frame_3.c)):
 ```
 Given the four major sections of a process' memory organization (Text, Data, Heap, and Stack), indicate which area each of the following are stored in:
 
@@ -53,7 +53,7 @@ dynamically-allocated variables, instantiated via new or malloc()
 global variables
 ```
 
-## Task 4 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Intel-x86-Assembly-Conditionals-and-Loops/intel_x86_assembly_conditionals_loops_4.txt)):
+## Task 4 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Intel-x86-Assembly-Procedures-and-the-Stack-Frame/intel_x86_assembly_procedures_and_the_stack_frame_4.c)):
 ```
 For this problem you are given the assembly code: hw5_code.s. This code contains a procedure, some_procedure(), which performs some computation over the elements in an array.
 
@@ -74,7 +74,7 @@ What is the purpose of the  pushl %esi  and  pushl %ebx  instructions, and the  
 Assuming the processor is currently executing the loop in some_procedure(), give a diagram showing the organization of the stack, including the stack frames for both main() and some_procedure(). As done in class, identify (via value or description) the contents of each element on the stack.
 ```
 
-## Task 5 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Intel-x86-Assembly-Conditionals-and-Loops/intel_x86_assembly_conditionals_loops_5.asm)):
+## Task 5 ([code is here](https://github.com/turnMeUpSon/Solved-CSCI-224-ECE-317-Computer-Architecture/blob/Intel-x86-Assembly-Procedures-and-the-Stack-Frame/intel_x86_assembly_procedures_and_the_stack_frame_5.c)):
 ```
 Given the following code:
 
