@@ -229,7 +229,7 @@ Distributed under the MIT License.
 
   
 
-Your Name - [Ian Miller](https://www.linkedin.com/in/ian-miller-620a63245/) - email@example.com
+Your Name - [Ian Miller](https://www.linkedin.com/in/ian-miller-620a63245/) - milleryan2003@gmail.com
 
   
 
